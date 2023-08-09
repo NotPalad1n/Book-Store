@@ -1,0 +1,50 @@
+.whyChoseUs{
+    display: flex;
+    gap: 6em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6em;
+    background-color: var(--darkcolor);
+    color: white;
+    margin-top: 6em;
+    position: relative;
+    padding-bottom: 14em;
+}
+
+.whyChoseUs .title {
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.whyChoseUs .cards{
+    display: flex;
+    position: absolute;
+    bottom: -50%;
+    gap: 100px;
+}
+
+.whyChoseUs .card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    box-shadow: 0px 10px 20px 0 rgba(0, 0, 0, 0.125);
+    padding: 3em 2em;
+    gap: 50px;
+    position: relative;
+}
+
+.whyChoseUs .card img{
+    width: 7em;
+}
+
+.whyChoseUs .bar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 5px;
+    background-color: var(--accentcolor1);
+}

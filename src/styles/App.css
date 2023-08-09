@@ -1,0 +1,28 @@
+:root{
+    --darkcolor: #2D3142;
+    --lightcolor: #BFC0C0;
+    --accentcolor1: #EF8354;
+    --accentcolor2: #4F5D75;
+    --white: #FFFFFF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+}
